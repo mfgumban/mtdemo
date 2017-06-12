@@ -6,6 +6,7 @@ var express = require('express');
 var helmet = require('helmet');
 var expressSession = require('express-session');
 var app = express();
+var cors = require('cors')
 var logger = require('morgan');
 var four0four = require('./utils/404')();
 var options = require('./utils/options')();
@@ -15,6 +16,8 @@ var passport = require('passport');
 var authHelper = require('./utils/auth-helper');
 var port = options.appPort;
 var environment = options.env;
+ 
+app.use(cors())
 
 authHelper.init();
 
