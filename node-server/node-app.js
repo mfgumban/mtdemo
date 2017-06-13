@@ -12,14 +12,14 @@ var four0four = require('./utils/404')();
 var options = require('./utils/options')();
 var http = require('http');
 var https = require('https');
-var passport = require('passport');
-var authHelper = require('./utils/auth-helper');
+// var passport = require('passport');
+// var authHelper = require('./utils/auth-helper');
 var port = options.appPort;
 var environment = options.env;
  
 app.use(cors())
 
-authHelper.init();
+// authHelper.init();
 
 // Making this middle-tier slightly more secure: https://www.npmjs.com/package/helmet#how-it-works
 app.use(helmet({
@@ -43,8 +43,8 @@ app.use(expressSession({
   resave: true
 }));
 
-app.use(passport.initialize());
-app.use(passport.session());
+// app.use(passport.initialize());
+// app.use(passport.session());
 
 app.use(logger('dev'));
 
