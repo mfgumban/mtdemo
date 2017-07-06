@@ -43,8 +43,8 @@ app.use(expressSession({
   resave: true
 }));
 
-// app.use(passport.initialize());
-// app.use(passport.session());
+app.use(passport.initialize());
+app.use(passport.session());
 
 app.use(logger('dev'));
 
