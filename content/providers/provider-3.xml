@@ -1,0 +1,772 @@
+<Provider xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProviderID="11816234" ProviderAttestID="31350116" AttestDate="2015-11-11T14:14:27" ID="1000" xmlns="urn:GeoAccess.PDE.Provider">
+    <LastName>Harrison</LastName>
+    <FirstName>Charlene</FirstName>
+    <MiddleName>Aquarius</MiddleName>
+    <PrimaryPracticeState>MA</PrimaryPracticeState>
+    <OtherNameFlag>0</OtherNameFlag>
+    <BirthDate>1967-06-29T00:00:00</BirthDate>
+    <USEligibleFlag>0</USEligibleFlag>
+    <SSN>123335678</SSN>
+    <DEAFlag>1</DEAFlag>
+    <CDSFlag>1</CDSFlag>
+    <UPIN>M45367</UPIN>
+    <UPINFlag>1</UPINFlag>
+    <NPIFlag>0</NPIFlag>
+    <MedicareProviderFlag>1</MedicareProviderFlag>
+    <MedicaidProviderFlag>1</MedicaidProviderFlag>
+    <OtherGraduateEducationFlag>1</OtherGraduateEducationFlag>
+    <FellowshipTrainingFlag>0</FellowshipTrainingFlag>
+    <TeachingAppointmentFlag>0</TeachingAppointmentFlag>
+    <SecondarySpecialtyFlag>0</SecondarySpecialtyFlag>
+    <OtherSpecialtyFlag>0</OtherSpecialtyFlag>
+    <HospitalPrivilegeFlag>1</HospitalPrivilegeFlag>
+    <WorkHistoryGapFlag>1</WorkHistoryGapFlag>
+    <ActiveMilitaryFlag>1</ActiveMilitaryFlag>
+    <CitizenshipStatus>Bahrain</CitizenshipStatus>
+    <VisaNumber>123456789</VisaNumber>
+    <ECFMGFlag>1</ECFMGFlag>
+    <ECFMGNumber>12345678</ECFMGNumber>
+    <ECFMGIssueDate>2002-01-01T00:00:00</ECFMGIssueDate>
+    <HospitalBasedFlag>0</HospitalBasedFlag>
+    <EmailAddress>charrison@caqh.org</EmailAddress>
+    <VisaType>Visa Type</VisaType>
+    <VisaStatus>Visa Status</VisaStatus>
+    <BirthCity>Birth City</BirthCity>
+    <SpouseLastName>testlastnew</SpouseLastName>
+    <SpouseFirstName>testfirst</SpouseFirstName>
+    <CellPhoneNumber>8887772222</CellPhoneNumber>
+    <AffiliatedFlag>1</AffiliatedFlag>
+    <DelegatedFlag>0</DelegatedFlag>
+    <NIDCountry>
+        <CountryName>Botswana</CountryName>
+    </NIDCountry>
+    <ProviderType>
+        <ProviderTypeAbbreviation>MD</ProviderTypeAbbreviation>
+    </ProviderType>
+    <OtherName ID="1000">
+        <LastName>Jones</LastName>
+        <FirstName>Charlene</FirstName>
+    </OtherName>
+    <Gender>
+        <GenderDescription>Female</GenderDescription>
+    </Gender>
+    <ProviderLicense ID="1000">
+        <LicenseNumber>MD12345</LicenseNumber>
+        <State>MA</State>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <ExpirationDate>2020-10-10T00:00:00</ExpirationDate>
+        <LicenseType>MD</LicenseType>
+        <IssueDate>2002-01-01T00:00:00</IssueDate>
+        <LicenseStatus>
+            <LicenseStatusDescription>Active</LicenseStatusDescription>
+        </LicenseStatus>
+    </ProviderLicense>
+    <ProviderLicense ID="1001">
+        <LicenseNumber>MA2465875</LicenseNumber>
+        <State>MA</State>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <ExpirationDate>2014-07-01T00:00:00</ExpirationDate>
+        <LicenseType>MD</LicenseType>
+        <LicenseStatus>
+            <LicenseStatusDescription>Current License</LicenseStatusDescription>
+        </LicenseStatus>
+    </ProviderLicense>
+    <ProviderDEA ID="1000">
+        <DEANumber>MD1234567</DEANumber>
+        <State>MD</State>
+        <ExpirationDate>2002-01-01T00:00:00</ExpirationDate>
+        <DEALicenseLimitationFlag>0</DEALicenseLimitationFlag>
+        <DEALicenseLimitationExplanation>x</DEALicenseLimitationExplanation>
+    </ProviderDEA>
+    <ProviderCDS ID="1000">
+        <CDSNumber>AA1245678</CDSNumber>
+        <State>MA</State>
+        <ExpirationDate>2014-06-01T00:00:00</ExpirationDate>
+        <IssueDate>2002-01-01T00:00:00</IssueDate>
+    </ProviderCDS>
+    <ProviderMedicare ID="1000">
+        <MedicareNumber>123123</MedicareNumber>
+        <State>CT</State>
+    </ProviderMedicare>
+    <ProviderMedicaid ID="1000">
+        <MedicaidNumber>12132</MedicaidNumber>
+        <State>GA</State>
+    </ProviderMedicaid>
+    <Education ID="1000">
+        <InstitutionName>Albany Medical College</InstitutionName>
+        <Address>Mail Code 34, Room MS-129</Address>
+        <Address2>47 New Scotland Avenue</Address2>
+        <City>Albany</City>
+        <State>NY</State>
+        <PostalCode>12208</PostalCode>
+        <StartDate>1982-01-01T00:00:00</StartDate>
+        <EndDate>1987-06-01T00:00:00</EndDate>
+        <ProgramCompletedFlag>1</ProgramCompletedFlag>
+        <CompletionDate>2001-01-01T00:00:00</CompletionDate>
+        <DisciplinaryActionFlag>0</DisciplinaryActionFlag>
+        <EducationTypeName>Medical School</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Degree>
+            <DegreeAbbreviation>MB</DegreeAbbreviation>
+        </Degree>
+        <InstitutionType>
+            <InstitutionTypeDescription>US Medical School</InstitutionTypeDescription>
+        </InstitutionType>
+    </Education>
+    <Education ID="1001">
+        <InstitutionName>[Please enter a value]</InstitutionName>
+        <Address>Johann-Wolfgang-Goethe-Universitaet Frankfurt</Address>
+        <Address2>Theodor-Stern-Kai 7</Address2>
+        <City>Frankfurt Am Main</City>
+        <PostalCode>60590</PostalCode>
+        <StartDate>2002-01-01T00:00:00</StartDate>
+        <EndDate>2003-01-01T00:00:00</EndDate>
+        <AffiliatedUniversityName>Columbia University School of Dental and Oral Surgery</AffiliatedUniversityName>
+        <HospitalDepartmentName>Emergency</HospitalDepartmentName>
+        <ProgramCompletedFlag>0</ProgramCompletedFlag>
+        <IncompleteExplanation>Test information</IncompleteExplanation>
+        <PhoneNumber>3058993249</PhoneNumber>
+        <EducationTypeName>Internship</EducationTypeName>
+        <Country>
+            <CountryName>Germany</CountryName>
+        </Country>
+        <Degree>
+            <DegreeAbbreviation>MBBS</DegreeAbbreviation>
+        </Degree>
+        <Specialty>
+            <SpecialtyName>Emergency Medicine, Emergency Medical Services</SpecialtyName>
+        </Specialty>
+    </Education>
+    <Education ID="1002">
+        <InstitutionName>Alaska Native Medical Center</InstitutionName>
+        <Address>4315 Diplomacy Drive</Address>
+        <City>Anchorage</City>
+        <State>AK</State>
+        <PostalCode>99508</PostalCode>
+        <StartDate>2003-03-01T00:00:00</StartDate>
+        <EndDate>2005-03-01T00:00:00</EndDate>
+        <HospitalDepartmentName>jfkdjfieut</HospitalDepartmentName>
+        <ProgramCompletedFlag>0</ProgramCompletedFlag>
+        <IncompleteExplanation>free text</IncompleteExplanation>
+        <PhoneNumber>9995556666</PhoneNumber>
+        <DisciplinaryActionFlag>0</DisciplinaryActionFlag>
+        <ProgramType>Straight</ProgramType>
+        <EducationTypeName>Internship</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Emergency Medicine, Pediatric Emergency Medicine</SpecialtyName>
+        </Specialty>
+    </Education>
+    <Education ID="1003">
+        <InstitutionName>Doctor Robert L Yeager Ctr</InstitutionName>
+        <Address>50 Sanatorium Road</Address>
+        <City>Pomona</City>
+        <State>NY</State>
+        <PostalCode>10970</PostalCode>
+        <StartDate>2005-01-01T00:00:00</StartDate>
+        <EndDate>2007-06-01T00:00:00</EndDate>
+        <AffiliatedUniversityName>Duke University School of Medicine</AffiliatedUniversityName>
+        <HospitalDepartmentName>alaska</HospitalDepartmentName>
+        <ProgramCompletedFlag>0</ProgramCompletedFlag>
+        <IncompleteExplanation>a</IncompleteExplanation>
+        <PhoneNumber>9143642700</PhoneNumber>
+        <EducationTypeName>Internship</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Allergy &amp; Immunology, Clinical &amp; Laboratory Immunology</SpecialtyName>
+        </Specialty>
+    </Education>
+    <Education ID="1004">
+        <InstitutionName>Acadia Hospital (Bangor, ME)</InstitutionName>
+        <Address>268 Stillwater Avenue</Address>
+        <City>Bangor</City>
+        <PostalCode>04401</PostalCode>
+        <StartDate>2001-02-01T00:00:00</StartDate>
+        <EndDate>2004-02-01T00:00:00</EndDate>
+        <AffiliatedUniversityName>Baylor College of Dentistry</AffiliatedUniversityName>
+        <HospitalDepartmentName>Oncology</HospitalDepartmentName>
+        <ProgramCompletedFlag>1</ProgramCompletedFlag>
+        <CompletionDate>2004-02-01T00:00:00</CompletionDate>
+        <EducationTypeName>Internship</EducationTypeName>
+        <Specialty>
+            <SpecialtyName>Anesthesiology, Pain Medicine</SpecialtyName>
+        </Specialty>
+    </Education>
+    <Education ID="1005">
+        <InstitutionName>Gritman Medical Center</InstitutionName>
+        <Address>700 South Main Street</Address>
+        <City>Moscow</City>
+        <State>ID</State>
+        <PostalCode>83843</PostalCode>
+        <StartDate>2000-01-01T00:00:00</StartDate>
+        <EndDate>2007-01-01T00:00:00</EndDate>
+        <HospitalDepartmentName>fjkdjfei</HospitalDepartmentName>
+        <ProgramCompletedFlag>0</ProgramCompletedFlag>
+        <PhoneNumber>2088824511</PhoneNumber>
+        <DisciplinaryActionFlag>0</DisciplinaryActionFlag>
+        <ProgramType>Other</ProgramType>
+        <EducationTypeName>Residency</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Emergency Medicine, Medical Toxicology</SpecialtyName>
+        </Specialty>
+    </Education>
+    <Education ID="1006">
+        <InstitutionName>Baylor College of Medicine</InstitutionName>
+        <Address>One Baylor Plaza</Address>
+        <City>Houston</City>
+        <State>TX</State>
+        <PostalCode>77030</PostalCode>
+        <StartDate>2002-01-01T00:00:00</StartDate>
+        <EndDate>2006-01-01T00:00:00</EndDate>
+        <ProgramCompletedFlag>1</ProgramCompletedFlag>
+        <CompletionDate>2006-01-01T00:00:00</CompletionDate>
+        <EducationTypeName>Medical School</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Degree>
+            <DegreeAbbreviation>DDS</DegreeAbbreviation>
+        </Degree>
+        <InstitutionType>
+            <InstitutionTypeDescription>US Medical School</InstitutionTypeDescription>
+        </InstitutionType>
+    </Education>
+    <Degree ID="1000">
+        <Degree>
+            <DegreeAbbreviation>MB</DegreeAbbreviation>
+        </Degree>
+    </Degree>
+    <Degree ID="1001">
+        <Degree>
+            <DegreeAbbreviation>MBBS</DegreeAbbreviation>
+        </Degree>
+    </Degree>
+    <Degree ID="1002">
+        <Degree>
+            <DegreeAbbreviation>DDS</DegreeAbbreviation>
+        </Degree>
+    </Degree>
+    <Specialty ID="1000">
+        <BoardCertifiedFlag>1</BoardCertifiedFlag>
+        <CertificationDate>2011-01-01T00:00:00</CertificationDate>
+        <HMOFlag>1</HMOFlag>
+        <PPOFlag>1</PPOFlag>
+        <POSFlag>1</POSFlag>
+        <SpecialtyBoardName>American Board of Pediatrics</SpecialtyBoardName>
+        <ApplyCertificationFlag>0</ApplyCertificationFlag>
+        <IntendApplyCertificationFlag>0</IntendApplyCertificationFlag>
+        <ExamAcceptedFlag>0</ExamAcceptedFlag>
+        <ABMSFlag>0</ABMSFlag>
+        <SpecialtyBoardAddress>test</SpecialtyBoardAddress>
+        <SpecialtyBoardCity>Test</SpecialtyBoardCity>
+        <SpecialtyBoardState>KY</SpecialtyBoardState>
+        <SpecialtyBoardPostalCode>45501</SpecialtyBoardPostalCode>
+        <SpecialtyType>
+            <SpecialtyTypeDescription>Primary</SpecialtyTypeDescription>
+        </SpecialtyType>
+        <Specialty>
+            <SpecialtyName>Legal Medicine</SpecialtyName>
+        </Specialty>
+    </Specialty>
+    <Associate ID="1000">
+        <EmailAddress>hshrink51@cox.net</EmailAddress>
+        <AssociateType>
+            <AssociateTypeDescription>Credentialing Contact</AssociateTypeDescription>
+        </AssociateType>
+    </Associate>
+    <Practice ID="1000">
+        <PracticeName>scksdkdh</PracticeName>
+        <Address>dfmkdfm</Address>
+        <City>dfdkfm</City>
+        <State>MA</State>
+        <Zip>20004</Zip>
+        <PhoneNumber>1625656253</PhoneNumber>
+        <CorrespondenceFlag>1</CorrespondenceFlag>
+        <OtherAssociatesFlag>0</OtherAssociatesFlag>
+        <PracticeTypeDescription>Solo</PracticeTypeDescription>
+        <Associate ID="1000">
+            <AssociateFirstName>dkfndknc</AssociateFirstName>
+            <AssociateLastName>dfndfn</AssociateLastName>
+            <TaxIDName>Group</TaxIDName>
+            <AssociateType>
+                <AssociateTypeDescription>Office Mgr</AssociateTypeDescription>
+            </AssociateType>
+        </Associate>
+        <AddressType>
+            <AddressTypeDescription>Primary Practice</AddressTypeDescription>
+        </AddressType>
+        <Tax ID="1000">
+            <TaxID>123456789</TaxID>
+            <TaxType>
+                <TaxTypeDescription>Group</TaxTypeDescription>
+            </TaxType>
+        </Tax>
+        <PracticeSpecialty ID="1000">
+            <PrimaryCareFlag>1</PrimaryCareFlag>
+            <SpecialtyCareFlag>0</SpecialtyCareFlag>
+            <MultiCareFlag>0</MultiCareFlag>
+        </PracticeSpecialty>
+        <PracticeAddress ID="1000">
+            <Address>dfmkdfm</Address>
+            <City>dfdkfm</City>
+            <State>MA</State>
+            <PostalCode>20004</PostalCode>
+            <Country>
+                <CountryName>United States</CountryName>
+            </Country>
+            <AddressType>
+                <AddressTypeDescription>Primary Practice</AddressTypeDescription>
+            </AddressType>
+        </PracticeAddress>
+    </Practice>
+    <Hospital ID="1000">
+        <HospitalName>St Francis Medical Center (Trenton, NJ)</HospitalName>
+        <Address>601 Hamilton Avenue</Address>
+        <City>Trenton</City>
+        <State>NJ</State>
+        <ZipCode>08629</ZipCode>
+        <PhoneNumber>6095995000</PhoneNumber>
+        <UnrestrictedPrivilegesFlag>0</UnrestrictedPrivilegesFlag>
+        <TemporaryPrivilegesFlag>0</TemporaryPrivilegesFlag>
+        <AdmissionPercent>5</AdmissionPercent>
+        <StartDate>2001-01-01T00:00:00</StartDate>
+        <HospitalAffiliationType>
+            <HospitalAffiliationTypeDescription>Primary</HospitalAffiliationTypeDescription>
+        </HospitalAffiliationType>
+    </Hospital>
+    <Insurance ID="1000">
+        <InsuranceCarrierName>Albert Einstein Healthcare Network</InsuranceCarrierName>
+        <OriginalStartDate>2010-01-01T00:00:00</OriginalStartDate>
+        <StartDate>2011-01-01T00:00:00</StartDate>
+        <Address>5501 Old York</Address>
+        <City>Philadelphia</City>
+        <State>PA</State>
+        <PostalCode>19141</PostalCode>
+        <PolicyNumber>123</PolicyNumber>
+        <IndividualCoverageFlag>0</IndividualCoverageFlag>
+        <CoverageAmountOccurrence>100000</CoverageAmountOccurrence>
+        <CoverageAmountAggregate>3200</CoverageAmountAggregate>
+        <TailNoseCoverageFlag>0</TailNoseCoverageFlag>
+        <TailNoseCoverageExplanation>test data</TailNoseCoverageExplanation>
+        <CoverageLimitExceededFlag>0</CoverageLimitExceededFlag>
+        <UnlimitedCoverageFlag>1</UnlimitedCoverageFlag>
+        <FaxNumber>1113332222</FaxNumber>
+        <RenewalDate>2002-01-01T00:00:00</RenewalDate>
+        <InsuranceCoverageType>
+            <InsuranceCoverageTypeDescription>Claims Made</InsuranceCoverageTypeDescription>
+        </InsuranceCoverageType>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+    </Insurance>
+    <Insurance ID="1001">
+        <InsuranceCarrierName>New York City Health and Hospitals Corporation</InsuranceCarrierName>
+        <OriginalStartDate>2004-07-01T00:00:00</OriginalStartDate>
+        <StartDate>2008-01-01T00:00:00</StartDate>
+        <EndDate>2020-07-01T00:00:00</EndDate>
+        <Address>79-01 Broadway</Address>
+        <City>Elmhurst</City>
+        <State>NY</State>
+        <PostalCode>11373</PostalCode>
+        <PolicyNumber>01-7894567833</PolicyNumber>
+        <IndividualCoverageFlag>0</IndividualCoverageFlag>
+        <CoverageAmountOccurrence>10000000</CoverageAmountOccurrence>
+        <CoverageAmountAggregate>200000000</CoverageAmountAggregate>
+        <TailNoseCoverageFlag>1</TailNoseCoverageFlag>
+        <UnlimitedCoverageFlag>0</UnlimitedCoverageFlag>
+        <InsuranceType>
+            <InsuranceTypeDescription>Current Malpractice</InsuranceTypeDescription>
+        </InsuranceType>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+    </Insurance>
+    <WorkHistory ID="1000">
+        <EmployerName>asdf</EmployerName>
+        <StartDate>2010-01-01T00:00:00</StartDate>
+        <Address>asdf</Address>
+        <Address2>asdf</Address2>
+        <City>asdf</City>
+        <State>IL</State>
+        <Province>asdf</Province>
+        <PostalCode>10000</PostalCode>
+        <ContactLastName>test</ContactLastName>
+        <ContactFirstName>test</ContactFirstName>
+        <PhoneNumber>8888888888</PhoneNumber>
+        <CurrentEmployerFlag>1</CurrentEmployerFlag>
+        <FaxNumber>9999999999</FaxNumber>
+        <OperatingStatusDescription>No</OperatingStatusDescription>
+        <StatusDescription>Present</StatusDescription>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <WorkHistoryType>
+            <WorkHistoryTypeDescription>Current</WorkHistoryTypeDescription>
+        </WorkHistoryType>
+    </WorkHistory>
+    <WorkHistory ID="1001">
+        <EmployerName>Test</EmployerName>
+        <StartDate>2003-01-01T00:00:00</StartDate>
+        <Address>address</Address>
+        <City>City</City>
+        <State>CA</State>
+        <PostalCode>40515</PostalCode>
+        <ContactLastName>Test</ContactLastName>
+        <ContactFirstName>Test</ContactFirstName>
+        <PhoneNumber>8888888888</PhoneNumber>
+        <CurrentEmployerFlag>1</CurrentEmployerFlag>
+        <FaxNumber>7777777777</FaxNumber>
+        <Title>x</Title>
+        <EmailAddress>currentworkhistoryemail@email.com</EmailAddress>
+        <StatusDescription>Present</StatusDescription>
+        <ProfLiabilityCarrier>Achd Insurance Company</ProfLiabilityCarrier>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <WorkHistoryType>
+            <WorkHistoryTypeDescription>Current</WorkHistoryTypeDescription>
+        </WorkHistoryType>
+    </WorkHistory>
+    <TimeGap ID="1000">
+        <StartDate>2000-01-01T00:00:00</StartDate>
+        <EndDate>2000-06-01T00:00:00</EndDate>
+        <GapExplanation>klklklklklklklklklkl</GapExplanation>
+        <GapDescription>Work History</GapDescription>
+    </TimeGap>
+    <Reference ID="1000">
+        <FirstName>Francis</FirstName>
+        <LastName>Tio</LastName>
+        <Address>1</Address>
+        <Address2>1</Address2>
+        <City>1</City>
+        <State>AK</State>
+        <PostalCode>12345</PostalCode>
+        <PhoneNumber>7777777777</PhoneNumber>
+        <StartDate>2000-01-01T00:00:00</StartDate>
+        <Title>title</Title>
+        <Relationship>relationship1</Relationship>
+        <YearsKnown>1</YearsKnown>
+        <EmailAddress>peeremail1@email.com</EmailAddress>
+        <Department>Department1</Department>
+        <ReferenceType>
+            <ProviderTypeAbbreviation>DC</ProviderTypeAbbreviation>
+        </ReferenceType>
+        <Country>
+            <CountryName>Bhutan</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Allergy &amp; Immunology</SpecialtyName>
+        </Specialty>
+    </Reference>
+    <Reference ID="1001">
+        <FirstName>TANYA</FirstName>
+        <LastName>TAJALLLI</LastName>
+        <Address>441 N LAKEVIEW</Address>
+        <Address2>address</Address2>
+        <City>ANAHEIM</City>
+        <State>CA</State>
+        <PostalCode>92807</PostalCode>
+        <PhoneNumber>7148123134</PhoneNumber>
+        <StartDate>1999-04-01T01:00:00</StartDate>
+        <Title>test</Title>
+        <FaxNumber>0220000212</FaxNumber>
+        <Relationship>relationship2</Relationship>
+        <YearsKnown>2</YearsKnown>
+        <EmailAddress>peeremail2@email.com</EmailAddress>
+        <Department>Department2</Department>
+        <Country>
+            <CountryName>Algeria</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Colon &amp; Rectal Surgery</SpecialtyName>
+        </Specialty>
+    </Reference>
+    <Reference ID="1002">
+        <FirstName>MICHAEL</FirstName>
+        <LastName>SUNDBORG</LastName>
+        <Address>3851 ROGER BROOK DR</Address>
+        <Address2>address</Address2>
+        <City>HOUSTON</City>
+        <State>TX</State>
+        <PostalCode>78234</PostalCode>
+        <PhoneNumber>2107488500</PhoneNumber>
+        <StartDate>2009-06-01T00:00:00</StartDate>
+        <Title>test</Title>
+        <FaxNumber>0220000212</FaxNumber>
+        <Relationship>relationship3</Relationship>
+        <YearsKnown>17</YearsKnown>
+        <EmailAddress>peeremail3@email.com</EmailAddress>
+        <Department>Department3</Department>
+        <Country>
+            <CountryName>Bangladesh</CountryName>
+        </Country>
+        <Specialty>
+            <SpecialtyName>Dentist, Oral and Maxillofacial Radiology</SpecialtyName>
+        </Specialty>
+    </Reference>
+    <Disclosure ID="1000">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Disciplinary actions taken by state licensure board</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1001">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>License denied or revoked</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1002">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Controlled substances priveleges suspended</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1003">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Formal written complaints</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1004">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Narcotic registration for any other state</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1005">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Professional employment suspended or diminished</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1006">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Medical privileges suspended or limited</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1007">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>withdrawn appointment due to disciplinary action</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1008">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>disciplinary actions at any healthcare facility</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1009">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Scientific misconduct</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1010">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Participation in health program suspended</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1011">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Financial interest In any nursing home or laboratry</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1012">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Application for participating provider membership rejected</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1013">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>professional liability insurance coverage terminated</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1014">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>professional liability insurance coverage denied</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1015">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>professional liability insurance coverage excluded</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1016">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suits or claims alleging malpractice</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1017">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Unable to perform essential functions</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1018">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Illegal usage of drugs</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1019">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Illegal usage of drugs in past ten years</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1020">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Convicted of criminal action</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1021">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Membership in medical society terminated</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1022">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Inquiry or disciplinary action by governmental or other agency</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1023">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>failed to complete CME requirements</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <GraduateType>
+        <GraduateTypeDescription>US/Canadian Graduate</GraduateTypeDescription>
+    </GraduateType>
+    <ProviderAddress ID="1000">
+        <Address>address</Address>
+        <Address2>home</Address2>
+        <City>city</City>
+        <State>AL</State>
+        <PostalCode>45501</PostalCode>
+        <PhoneNumber>2483770500</PhoneNumber>
+        <EmailAddress>charrison@caqh.org</EmailAddress>
+        <AddressType>
+            <AddressTypeDescription>Current Home</AddressTypeDescription>
+        </AddressType>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+    </ProviderAddress>
+    <ProviderAddress ID="1001">
+        <Address>x</Address>
+        <Address2>x</Address2>
+        <City>x</City>
+        <State>IL</State>
+        <PostalCode>12345</PostalCode>
+        <Province>x</Province>
+        <EmailAddress>charrison@caqh.org</EmailAddress>
+        <AddressType>
+            <AddressTypeDescription>Mailing</AddressTypeDescription>
+        </AddressType>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+    </ProviderAddress>
+    <ProviderOther ID="1000">
+        <ProviderAnswerFlag>0</ProviderAnswerFlag>
+        <ProviderAnswerText>Research Professional Activity</ProviderAnswerText>
+    </ProviderOther>
+    <ProviderOther ID="1001">
+        <ProviderAnswerFlag>0</ProviderAnswerFlag>
+        <ProviderAnswerText>Teaching Professional Activity</ProviderAnswerText>
+    </ProviderOther>
+    <ProviderOther ID="1002">
+        <ProviderAnswerFlag>0</ProviderAnswerFlag>
+        <ProviderAnswerText>Retired Professional Activity</ProviderAnswerText>
+    </ProviderOther>
+    <ProviderOther ID="1003">
+        <ProviderAnswerFlag>0</ProviderAnswerFlag>
+        <ProviderAnswerText>Administration Professional Activity</ProviderAnswerText>
+    </ProviderOther>
+    <ProviderOther ID="1003">
+        <ProviderAnswerFlag>0</ProviderAnswerFlag>
+        <ProviderAnswerText>Other Professional Activity</ProviderAnswerText>
+        <OtherQuestion>
+            <OtherQuestionSummary>0</OtherQuestionSummary>
+        </OtherQuestion>
+    </ProviderOther>
+    <ProviderCertification ID="1000">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Cardio-Pulmonary Resucitation (CPR)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1001">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Basic Life Support (BLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1002">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Cardiac Life Support (ACLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1003">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Life Support in OB (ALSO)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1004">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Health Care Provider (Core C)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1005">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Neonatal Advanced Life Support (NALS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1006">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Trauma Life Support (ATLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1007">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Neonatal Resuscitation Program (NRS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1008">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Pediatric Advanced Life Support (PALS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1009">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Other</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1010">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Anesthesia Permit</CertificationDescription>
+    </ProviderCertification>
+    <CitizenshipCountry>
+        <CountryName>Bahrain</CountryName>
+    </CitizenshipCountry>
+    <BirthCountry>
+        <CountryName>United States</CountryName>
+    </BirthCountry>
+    <MaritalStatus>
+        <MaritalStatusDescription>Married</MaritalStatusDescription>
+    </MaritalStatus>
+    <Military ID="1000">
+        <ActiveDuty>1</ActiveDuty>
+    </Military>
+</Provider>

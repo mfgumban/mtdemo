@@ -1,0 +1,1459 @@
+<Provider xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProviderID="13510005" ProviderAttestID="96163092" AttestDate="2016-01-29T09:06:14" ID="1000" xmlns="urn:GeoAccess.PDE.Provider">
+    <LastName>Everline</LastName>
+    <FirstName>Scott</FirstName>
+    <PrimaryPracticeState>DC</PrimaryPracticeState>
+    <OtherNameFlag>0</OtherNameFlag>
+    <BirthDate>1979-03-31T01:00:00</BirthDate>
+    <SSN>012243479</SSN>
+    <DEAFlag>1</DEAFlag>
+    <CDSFlag>1</CDSFlag>
+    <UPINFlag>0</UPINFlag>
+    <NPIFlag>1</NPIFlag>
+    <NPI>0123456789</NPI>
+    <MedicareProviderFlag>1</MedicareProviderFlag>
+    <MedicaidProviderFlag>1</MedicaidProviderFlag>
+    <FellowshipTrainingFlag>0</FellowshipTrainingFlag>
+    <SecondarySpecialtyFlag>0</SecondarySpecialtyFlag>
+    <HospitalPrivilegeFlag>1</HospitalPrivilegeFlag>
+    <WorkHistoryGapFlag>1</WorkHistoryGapFlag>
+    <ActiveMilitaryFlag>0</ActiveMilitaryFlag>
+    <CitizenshipStatus>United States</CitizenshipStatus>
+    <ECFMGFlag>0</ECFMGFlag>
+    <HospitalBasedFlag>0</HospitalBasedFlag>
+    <EthnicityDescription>White/Caucasian</EthnicityDescription>
+    <AffiliatedFlag>1</AffiliatedFlag>
+    <DelegatedFlag>0</DelegatedFlag>
+    <ProviderType>
+        <ProviderTypeAbbreviation>DO</ProviderTypeAbbreviation>
+    </ProviderType>
+    <Gender>
+        <GenderDescription>Male</GenderDescription>
+    </Gender>
+    <Language ID="1000">
+        <Language>
+            <LanguageName>French</LanguageName>
+        </Language>
+    </Language>
+    <ProviderIdentifier ID="1000">
+        <IdentifierType>
+            <IdentifierTypeDescription>Workers Compensation Number</IdentifierTypeDescription>
+        </IdentifierType>
+    </ProviderIdentifier>
+    <ProviderLicense ID="1000">
+        <LicenseNumber>123456789</LicenseNumber>
+        <State>DC</State>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <ExpirationDate>2017-04-01T00:00:00</ExpirationDate>
+        <LicenseType>MD</LicenseType>
+        <IssueDate>2015-01-01T00:00:00</IssueDate>
+        <LicenseStatus>
+            <LicenseStatusDescription>Active</LicenseStatusDescription>
+        </LicenseStatus>
+    </ProviderLicense>
+    <ProviderLicense ID="1001">
+        <LicenseNumber>987465132</LicenseNumber>
+        <State>MD</State>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+        <LicenseType>MD</LicenseType>
+        <IssueDate>2014-01-01T00:00:00</IssueDate>
+        <LicenseStatus>
+            <LicenseStatusDescription>Active</LicenseStatusDescription>
+        </LicenseStatus>
+    </ProviderLicense>
+    <ProviderLicense ID="1002">
+        <LicenseNumber>321654987</LicenseNumber>
+        <State>MN</State>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <ExpirationDate>2017-01-01T00:00:00</ExpirationDate>
+        <LicenseType>MD</LicenseType>
+        <IssueDate>2015-01-01T00:00:00</IssueDate>
+        <LicenseStatus>
+            <LicenseStatusDescription>Active</LicenseStatusDescription>
+        </LicenseStatus>
+    </ProviderLicense>
+    <ProviderDEA ID="1000">
+        <DEANumber>AB7654321</DEANumber>
+        <State>DC</State>
+        <ExpirationDate>2016-01-01T00:00:00</ExpirationDate>
+        <IssueDate>2014-01-01T00:00:00</IssueDate>
+        <DEALicenseLimitationFlag>1</DEALicenseLimitationFlag>
+        <ApplicationDate>2005-01-01T00:00:00</ApplicationDate>
+    </ProviderDEA>
+    <ProviderCDS ID="1000">
+        <CDSNumber>DCS654321</CDSNumber>
+        <State>DC</State>
+        <ExpirationDate>2016-12-01T00:00:00</ExpirationDate>
+    </ProviderCDS>
+    <ProviderMedicare ID="1000">
+        <MedicareNumber>987654321</MedicareNumber>
+        <State>DC</State>
+    </ProviderMedicare>
+    <ProviderMedicaid ID="1000">
+        <MedicaidNumber>987654321</MedicaidNumber>
+        <State>DC</State>
+    </ProviderMedicaid>
+    <Education ID="1000">
+        <InstitutionName>University of Alabama</InstitutionName>
+        <Address>1530 3rd Avenue South</Address>
+        <City>Tuscaloosa</City>
+        <State>AL</State>
+        <PostalCode>35487</PostalCode>
+        <StartDate>2010-01-01T00:00:00</StartDate>
+        <EndDate>2014-05-01T00:00:00</EndDate>
+        <ProgramCompletedFlag>1</ProgramCompletedFlag>
+        <CompletionDate>2014-05-30T00:00:00</CompletionDate>
+        <PhoneNumber>2053486010</PhoneNumber>
+        <EducationTypeName>Medical School</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Degree>
+            <DegreeAbbreviation>DPT</DegreeAbbreviation>
+        </Degree>
+        <InstitutionType>
+            <InstitutionTypeDescription>Fifth Pathway US Medical </InstitutionTypeDescription>
+        </InstitutionType>
+    </Education>
+    <Education ID="1001">
+        <InstitutionName>Georgetown University</InstitutionName>
+        <Address>37th St Nw And O St Nw</Address>
+        <City>Washington</City>
+        <State>DC</State>
+        <PostalCode>20007</PostalCode>
+        <StartDate>2006-01-01T00:00:00</StartDate>
+        <EndDate>2010-01-01T00:00:00</EndDate>
+        <ProgramCompletedFlag>0</ProgramCompletedFlag>
+        <IncompleteExplanation>Professional education completed during graduate program.</IncompleteExplanation>
+        <EducationTypeName>Undergraduate School</EducationTypeName>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <Degree>
+            <DegreeAbbreviation>BS</DegreeAbbreviation>
+        </Degree>
+        <InstitutionType>
+            <InstitutionTypeDescription>Allied/General School</InstitutionTypeDescription>
+        </InstitutionType>
+    </Education>
+    <Degree ID="1000">
+        <Degree>
+            <DegreeAbbreviation>DPT</DegreeAbbreviation>
+        </Degree>
+    </Degree>
+    <Degree ID="1001">
+        <Degree>
+            <DegreeAbbreviation>BS</DegreeAbbreviation>
+        </Degree>
+    </Degree>
+    <Specialty ID="1000">
+        <BoardCertifiedFlag>1</BoardCertifiedFlag>
+        <CertificationDate>2000-10-01T00:00:00</CertificationDate>
+        <RecertificationDate>2015-10-01T00:00:00</RecertificationDate>
+        <ExpirationDate>2017-09-30T00:00:00</ExpirationDate>
+        <HMOFlag>1</HMOFlag>
+        <PPOFlag>1</PPOFlag>
+        <POSFlag>1</POSFlag>
+        <SpecialtyBoardName>American Board of Pediatric Dentistry</SpecialtyBoardName>
+        <ApplyCertificationFlag>0</ApplyCertificationFlag>
+        <IntendApplyCertificationFlag>0</IntendApplyCertificationFlag>
+        <ExamAcceptedFlag>0</ExamAcceptedFlag>
+        <SpecialtyBoardAddress>1900 K St NW</SpecialtyBoardAddress>
+        <SpecialtyBoardCity>Washington</SpecialtyBoardCity>
+        <SpecialtyBoardState>DC</SpecialtyBoardState>
+        <SpecialtyType>
+            <SpecialtyTypeDescription>Primary</SpecialtyTypeDescription>
+        </SpecialtyType>
+        <Specialty>
+            <SpecialtyName>Allergy</SpecialtyName>
+        </Specialty>
+    </Specialty>
+    <Associate ID="1000">
+        <AssociateFirstName>Charlene</AssociateFirstName>
+        <AssociateLastName>Harrison</AssociateLastName>
+        <Address>1900 K St NW</Address>
+        <Address2>Suite 650</Address2>
+        <City>Washington</City>
+        <State>DC</State>
+        <PostalCode>20006</PostalCode>
+        <PhoneNumber>2025555555</PhoneNumber>
+        <EmailAddress>charrison@caqh.org</EmailAddress>
+        <AssociateType>
+            <AssociateTypeDescription>Credentialing Contact</AssociateTypeDescription>
+        </AssociateType>
+    </Associate>
+    <Practice ID="1000">
+        <PracticeName>Practice #2</PracticeName>
+        <Address>123 Elm St</Address>
+        <Address2>Suite 650</Address2>
+        <City>Washington</City>
+        <State>DC</State>
+        <Zip>20001</Zip>
+        <County>District of Columbia</County>
+        <PhoneNumber>5555555555</PhoneNumber>
+        <EmailAddress>jamesmorrison@thedoors.com</EmailAddress>
+        <CorrespondenceFlag>1</CorrespondenceFlag>
+        <OtherAssociatesFlag>0</OtherAssociatesFlag>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <Coverage24x7Flag>1</Coverage24x7Flag>
+        <PracticeLimitationFlag>0</PracticeLimitationFlag>
+        <ADAApprovedFlag>0</ADAApprovedFlag>
+        <InterpreterAvailableFlag>1</InterpreterAvailableFlag>
+        <MedicareNumber>444555666</MedicareNumber>
+        <MedicaidNumber>222111333</MedicaidNumber>
+        <W9PracticeName>Practice #2</W9PracticeName>
+        <ElectronicBillingFlag>1</ElectronicBillingFlag>
+        <NPI>321789456</NPI>
+        <PracticeTypeDescription>Multi-Specialty Group</PracticeTypeDescription>
+        <Accessibility ID="1000">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Meets fire, safety, and sanitation requirements</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1001">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1002">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Building Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1003">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Parking Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1004">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Restroom Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1005">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Wheelchair Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1007">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Public Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1008">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Bus Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1009">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Subway Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1010">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Regional Train Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1012">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>TTY Service</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1013">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>ASL Service</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1014">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Mental/Physical Impairments</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1017">
+            <AccessibilityFlag>0</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Child Care</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Associate ID="1000">
+            <AssociateFirstName>Willie</AssociateFirstName>
+            <AssociateLastName>Nelson</AssociateLastName>
+            <LicenseNumber>123665478</LicenseNumber>
+            <CoverageFlag>0</CoverageFlag>
+            <TaxIDName>Group</TaxIDName>
+            <AssociateSpecialty ID="0">
+                <Specialty>
+                    <SpecialtyName>Podiatrist</SpecialtyName>
+                </Specialty>
+            </AssociateSpecialty>
+            <AssociateType>
+                <AssociateTypeDescription>Partner</AssociateTypeDescription>
+            </AssociateType>
+            <AssociateOther ID="1000">
+                <CoverageAvailability>Partner</CoverageAvailability>
+            </AssociateOther>
+        </Associate>
+        <Associate ID="1001">
+            <AssociateFirstName>Eric</AssociateFirstName>
+            <AssociateLastName>Clapton</AssociateLastName>
+            <TaxIDName>Group</TaxIDName>
+            <AssociateType>
+                <AssociateTypeDescription>Mid-Level Practitioner</AssociateTypeDescription>
+            </AssociateType>
+        </Associate>
+        <Associate ID="1002">
+            <AssociateFirstName>Kermitt</AssociateFirstName>
+            <AssociateLastName>Frog</AssociateLastName>
+            <EmailAddress>kfrog@froggie.com</EmailAddress>
+            <TaxIDName>Group</TaxIDName>
+            <AssociateType>
+                <AssociateTypeDescription>Office Mgr</AssociateTypeDescription>
+            </AssociateType>
+        </Associate>
+        <Certification ID="1000">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Basic Life Support (BLS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1001">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Life Support in OB (ALSO)</CertificationDescription>
+        </Certification>
+        <Certification ID="1002">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Pediatric Advanced Life Support (PALS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1003">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Trauma Life Support (ATLS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1004">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Neonatal Advanced Life Support (NALS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1005">0</Certification>
+        <Certification ID="1006">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Cardio-Pulmonary Resucitation (CPR)</CertificationDescription>
+        </Certification>
+        <Certification ID="1007">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Other</CertificationDescription>
+        </Certification>
+        <Certification ID="1008">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Cardiac Life Support (ACLS)</CertificationDescription>
+        </Certification>
+        <ProviderPracticeHours ID="1000">
+            <StartHours>
+                <Hours>8:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>12:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Monday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <ProviderPracticeHours ID="1003">
+            <StartHours>
+                <Hours>8:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>6:30 pm</Hours>
+           </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Thursday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <Language ID="1000">
+            <LanguageType>Speak</LanguageType>
+            <Language>
+                <LanguageName>Afrikaans</LanguageName>
+            </Language>
+        </Language>
+        <Language ID="1001">
+            <LanguageType>Speak</LanguageType>
+            <Language>
+                <LanguageName>American Sign Language</LanguageName>
+            </Language>
+        </Language>
+        <Language ID="1002">
+            <LanguageType>Translate</LanguageType>
+            <Language>
+                <LanguageName>Afan (Oromo)</LanguageName>
+            </Language>
+            <EmployeeType>
+                <EmployeeTypeDescription>Interpreter</EmployeeTypeDescription>
+            </EmployeeType>
+        </Language>
+        <Limitation ID="1000">
+            <AgeLimitationFlag>0</AgeLimitationFlag>
+            <GenderLimitation>
+                <GenderLimitationDescription>No</GenderLimitationDescription>
+            </GenderLimitation>
+        </Limitation>
+        <Patient ID="1000">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1001">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>All New Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1003">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>Existing Patients w/ Change of Payor</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1004">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients from Physician Referral Only</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1005">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Medicare Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1006">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Medicaid Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1007">
+            <PatientFlag>0</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients Varies by Health Plan</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <PhoneCoverage ID="1000">
+            <PhoneCoverageFlag>1</PhoneCoverageFlag>
+            <PhoneCoverageTypeDescription>Answering Service</PhoneCoverageTypeDescription>
+        </PhoneCoverage>
+        <Service ID="1000">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Laboratory</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1002">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Radiology</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1003">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>EKG</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1004">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Minor Lacerations</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1005">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Pulmonary Function Testing</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1006">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Allergy Injections</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1007">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Allergy Skin Testing</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1008">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Office Gynecology</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1009">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Drawing Blood</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1010">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Age Appropriate Immunizations</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1011">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Flexible Sigmoidoscopy</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1012">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Tympanometry/Audiometry Screening</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1014">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Asthma Treatment</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1015">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Osteopathic Manipulation</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1016">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>IV Hydration/Treatment</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1017">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Cardiac Stress Tests</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1018">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Physical Therapy</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1019">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Anesthesia</ServiceName>
+            </Service>
+        </Service>
+        <AddressType>
+            <AddressTypeDescription>Other Practice</AddressTypeDescription>
+        </AddressType>
+        <Tax ID="1000">
+            <TaxID>123456879</TaxID>
+            <PrimaryFlag>1</PrimaryFlag>
+            <TaxType>
+                <TaxTypeDescription>Group</TaxTypeDescription>
+            </TaxType>
+        </Tax>
+        <PracticeSpecialty ID="1000">
+            <Specialty>
+                <SpecialtyName>General Practice</SpecialtyName>
+            </Specialty>
+        </PracticeSpecialty>
+        <PracticeAddress ID="1000">
+            <Address>123 Elm St</Address>
+            <Address2>Suite 650</Address2>
+            <City>Washington</City>
+            <County>District of Columbia</County>
+            <State>DC</State>
+            <PostalCode>20001</PostalCode>
+            <EmailAddress>jamesmorrison@thedoors.com</EmailAddress>
+            <Country>
+                <CountryName>United States</CountryName>
+            </Country>
+            <AddressType>
+                <AddressTypeDescription>Other Practice</AddressTypeDescription>
+            </AddressType>
+        </PracticeAddress>
+        <PracticeAddress ID="1001">
+            <Address>123 Elm St</Address>
+            <Address2>Suite 650</Address2>
+            <City>Washington</City>
+            <County>District of Columbia</County>
+            <State>DC</State>
+            <PostalCode>20001</PostalCode>
+            <Country>
+                <CountryName>United States</CountryName>
+            </Country>
+            <AddressType>
+                <AddressTypeDescription>Mailing</AddressTypeDescription>
+            </AddressType>
+        </PracticeAddress>
+    </Practice>
+    <Practice ID="1001">
+        <PracticeName>Practice #1</PracticeName>
+        <Address>1900 K St NW</Address>
+        <City>Washington</City>
+        <State>DC</State>
+        <Zip>20006</Zip>
+        <PhoneNumber>2025170426</PhoneNumber>
+        <AfterHoursPhoneNumber>2025170426</AfterHoursPhoneNumber>
+        <EmailAddress>severline@caqh.org</EmailAddress>
+        <CorrespondenceFlag>1</CorrespondenceFlag>
+        <OtherAssociatesFlag>0</OtherAssociatesFlag>
+        <CurrentlyPracticingFlag>1</CurrentlyPracticingFlag>
+        <Coverage24x7Flag>0</Coverage24x7Flag>
+        <PracticeLimitationFlag>0</PracticeLimitationFlag>
+        <ADAApprovedFlag>1</ADAApprovedFlag>
+        <InterpreterAvailableFlag>0</InterpreterAvailableFlag>
+        <MedicareNumber>12345679</MedicareNumber>
+        <MedicaidNumber>123456789</MedicaidNumber>
+        <ElectronicBillingFlag>1</ElectronicBillingFlag>
+        <NPI>1122334455</NPI>
+        <PracticeTypeDescription>Multi-Specialty Group</PracticeTypeDescription>
+        <Accessibility ID="1000">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Meets fire, safety, and sanitation requirements</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1001">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1002">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Building Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1003">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Parking Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1004">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Restroom Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1005">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Handicapped Wheelchair Access</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1007">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Public Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1008">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Bus Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1009">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Subway Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1010">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Regional Train Transportation</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1012">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>TTY Service</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1013">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>ASL Service</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1014">
+            <AccessibilityFlag>1</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Mental/Physical Impairments</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Accessibility ID="1017">
+            <AccessibilityFlag>0</AccessibilityFlag>
+            <Accessibility>
+                <AccessibilityDescription>Child Care</AccessibilityDescription>
+            </Accessibility>
+        </Accessibility>
+        <Associate ID="1000">
+            <AssociateFirstName>James</AssociateFirstName>
+            <AssociateLastName>Hendricks</AssociateLastName>
+            <TaxIDName>Individual</TaxIDName>
+            <AssociateSpecialty ID="0">
+                <Specialty>
+                    <SpecialtyName>Chiropractor</SpecialtyName>
+                </Specialty>
+            </AssociateSpecialty>
+            <AssociateType>
+                <AssociateTypeDescription>Partner</AssociateTypeDescription>
+            </AssociateType>
+            <ProviderType>
+                <ProviderTypeAbbreviation>DC</ProviderTypeAbbreviation>
+            </ProviderType>
+            <AssociateOther ID="1000">
+                <CoverageAvailability>Partner</CoverageAvailability>
+            </AssociateOther>
+        </Associate>
+        <Associate ID="1001">
+            <AssociateFirstName>Janis</AssociateFirstName>
+            <AssociateLastName>Joplin</AssociateLastName>
+            <PhoneNumber>2025170426</PhoneNumber>
+            <EmailAddress>jjoplin@bobbymcgee.com</EmailAddress>
+            <TaxIDName>Individual</TaxIDName>
+            <AssociateType>
+                <AssociateTypeDescription>Office Mgr</AssociateTypeDescription>
+            </AssociateType>
+        </Associate>
+        <Certification ID="1000">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Basic Life Support (BLS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1001">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Life Support in OB (ALSO)</CertificationDescription>
+        </Certification>
+        <Certification ID="1002">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Pediatric Advanced Life Support (PALS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1003">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Trauma Life Support (ATLS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1004">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Neonatal Advanced Life Support (NALS)</CertificationDescription>
+        </Certification>
+        <Certification ID="1005">0</Certification>
+        <Certification ID="1006">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Cardio-Pulmonary Resucitation (CPR)</CertificationDescription>
+        </Certification>
+        <Certification ID="1007">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Other</CertificationDescription>
+        </Certification>
+        <Certification ID="1008">
+            <CertificationFlag>0</CertificationFlag>
+            <CertificationDescription>Advanced Cardiac Life Support (ACLS)</CertificationDescription>
+        </Certification>
+        <ProviderPracticeHours ID="1000">
+            <StartHours>
+                <Hours>8:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>7:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Monday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <ProviderPracticeHours ID="1001">
+            <StartHours>
+                <Hours>8:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>5:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Tuesday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <ProviderPracticeHours ID="1003">
+            <StartHours>
+                <Hours>7:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>8:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Thursday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <ProviderPracticeHours ID="1004">
+            <StartHours>
+                <Hours>7:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>8:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Friday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <ProviderPracticeHours ID="1005">
+            <StartHours>
+                <Hours>8:00 am</Hours>
+            </StartHours>
+            <EndHours>
+                <Hours>2:00 pm</Hours>
+            </EndHours>
+            <DayOfWeek>
+                <DayOfWeekName>Saturday</DayOfWeekName>
+            </DayOfWeek>
+            <HoursType>
+                <HoursTypeDescription>Office</HoursTypeDescription>
+            </HoursType>
+        </ProviderPracticeHours>
+        <Limitation ID="1000">
+            <AgeLimitationFlag>0</AgeLimitationFlag>
+            <GenderLimitation>
+                <GenderLimitationDescription>No</GenderLimitationDescription>
+            </GenderLimitation>
+        </Limitation>
+        <Patient ID="1000">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1001">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>All New Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1003">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>Existing Patients w/ Change of Payor</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1004">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients from Physician Referral Only</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1005">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Medicare Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1006">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Medicaid Patients</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <Patient ID="1007">
+            <PatientFlag>1</PatientFlag>
+            <PatientType>
+                <PatientTypeDescription>New Patients Varies by Health Plan</PatientTypeDescription>
+            </PatientType>
+        </Patient>
+        <PhoneCoverage ID="1000">
+            <PhoneCoverageFlag>0</PhoneCoverageFlag>
+            <PhoneCoverageTypeDescription>Voice Mail To Answering Service</PhoneCoverageTypeDescription>
+        </PhoneCoverage>
+        <Service ID="1000">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Laboratory</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1002">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Radiology</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1003">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>EKG</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1004">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Minor Lacerations</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1005">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Pulmonary Function Testing</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1006">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Allergy Injections</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1007">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Allergy Skin Testing</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1008">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Office Gynecology</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1009">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Drawing Blood</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1010">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Age Appropriate Immunizations</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1011">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Flexible Sigmoidoscopy</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1012">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Tympanometry/Audiometry Screening</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1014">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Asthma Treatment</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1015">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Osteopathic Manipulation</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1016">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>IV Hydration/Treatment</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1017">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Cardiac Stress Tests</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1018">
+            <ServiceProvidedFlag>1</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Physical Therapy</ServiceName>
+            </Service>
+        </Service>
+        <Service ID="1019">
+            <ServiceProvidedFlag>0</ServiceProvidedFlag>
+            <Service>
+                <ServiceName>Anesthesia</ServiceName>
+            </Service>
+        </Service>
+        <AddressType>
+            <AddressTypeDescription>Primary Practice</AddressTypeDescription>
+        </AddressType>
+        <Tax ID="1000">
+            <TaxID>123456789</TaxID>
+            <PrimaryFlag>1</PrimaryFlag>
+            <TaxType>
+                <TaxTypeDescription>Individual</TaxTypeDescription>
+            </TaxType>
+        </Tax>
+        <PracticeAddress ID="1000">
+            <Address>1900 K St NW</Address>
+            <City>Washington</City>
+           <State>DC</State>
+            <PostalCode>20006</PostalCode>
+            <EmailAddress>severline@caqh.org</EmailAddress>
+            <Country>
+                <CountryName>United States</CountryName>
+            </Country>
+            <AddressType>
+                <AddressTypeDescription>Primary Practice</AddressTypeDescription>
+            </AddressType>
+        </PracticeAddress>
+        <PracticeAddress ID="1001">
+            <Address>1900 K St NW</Address>
+            <City>Washington</City>
+            <State>DC</State>
+            <PostalCode>20006</PostalCode>
+            <AddressType>
+                <AddressTypeDescription>Primary Practice Mailing</AddressTypeDescription>
+            </AddressType>
+        </PracticeAddress>
+    </Practice>
+    <Hospital ID="1000">
+        <HospitalName>Veterans Affairs Med Center (Washington, DC)</HospitalName>
+        <Address>50 Irving Street NW</Address>
+        <City>Washington</City>
+        <State>DC</State>
+        <ZipCode>20422</ZipCode>
+        <PhoneNumber>2027458100</PhoneNumber>
+        <UnrestrictedPrivilegesFlag>1</UnrestrictedPrivilegesFlag>
+        <PrivilegeDescription>Admitting</PrivilegeDescription>
+        <TemporaryPrivilegesFlag>0</TemporaryPrivilegesFlag>
+        <HospitalAffiliationType>
+            <HospitalAffiliationTypeDescription>Primary</HospitalAffiliationTypeDescription>
+        </HospitalAffiliationType>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+    </Hospital>
+    <Insurance ID="1000">
+        <InsuranceCarrierName>Argonaut Ins Co</InsuranceCarrierName>
+        <StartDate>2015-01-01T00:00:00</StartDate>
+        <EndDate>2017-01-01T00:00:00</EndDate>
+        <SelfInsuredFlag>0</SelfInsuredFlag>
+        <Address>250 Middlefield Rd</Address>
+        <City>Menlo Park</City>
+        <State>CA</State>
+        <PostalCode>94025</PostalCode>
+        <PolicyNumber>1234567890</PolicyNumber>
+        <IndividualCoverageFlag>1</IndividualCoverageFlag>
+        <CoverageAmountOccurrence>1000000</CoverageAmountOccurrence>
+        <CoverageAmountAggregate>10000000</CoverageAmountAggregate>
+        <TailNoseCoverageFlag>1</TailNoseCoverageFlag>
+        <UnlimitedCoverageFlag>1</UnlimitedCoverageFlag>
+        <InsuranceType>
+            <InsuranceTypeDescription>Previous Malpractice</InsuranceTypeDescription>
+        </InsuranceType>
+        <InsuranceCoverageType>
+            <InsuranceCoverageTypeDescription>Claims Made</InsuranceCoverageTypeDescription>
+        </InsuranceCoverageType>
+    </Insurance>
+    <WorkHistory ID="1000">
+        <EmployerName>ACME Physical Therapy</EmployerName>
+        <StartDate>2000-01-01T00:00:00</StartDate>
+        <Address>1900 K St NW</Address>
+        <City>Washington</City>
+        <State>DC</State>
+        <PostalCode>20006</PostalCode>
+        <CurrentEmployerFlag>1</CurrentEmployerFlag>
+        <StatusDescription>Present</StatusDescription>
+        <Country>
+            <CountryName>United States</CountryName>
+        </Country>
+        <WorkHistoryType>
+            <WorkHistoryTypeDescription>Current</WorkHistoryTypeDescription>
+        </WorkHistoryType>
+    </WorkHistory>
+    <Disclosure ID="1000">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended License or License Problems</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1001">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>License or Registration Investigated</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1002">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended DEA or CDS</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1003">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Privileges surrendered or other privilege problems</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1004">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Voluntarily limited privileges</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1005">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Involuntarily relinquished membership, participation, or privileges</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1006">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended revoked or surrendered board certifications</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1007">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Disciplined by health-related organization</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1008">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Restricted by Private, Federal or State Health Insurance Program</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1009">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Pending Criminal Charges</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1010">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Charged with a Sexual Offense</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1011">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Had any Malpractice Actions</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1012">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Canceled Professional Liability Coverage</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1013">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Practiced Without Liability Coverage</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1014">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Physical or Mental Conditions Affecting Ability to Practice</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1015">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Substance Abuse Impairs Ability to Practice</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1016">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Use Illegal Drugs</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1017">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended License or License Problems</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1018">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Challenge to Licensure, Registration or Certification</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1019">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended Clinical Privileges</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1020">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Voluntarily limited privileges</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1021">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Terminated for cause by MCO</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1022">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Disciplined during medical training</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1023">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Terminated during medical training</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1024">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Revoked board certifications</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1025">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Surrendered board certifications</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1026">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Suspended DEA or CDS</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1027">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Disciplined Medicare or Medicaid</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1028">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Subject of Investigation</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1029">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Been reported to NPDB</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1030">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Sanctions from Regulatory Agency</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1031">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Sexual Harassment</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1032">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Sanctioned by Military Facility</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1033">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Canceled Professional Liability Coverage</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1034">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>High-risk for Professional Liability Coverage</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1035">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Had any Malpractice Actions</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1036">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Convicted of Felony</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+   <Disclosure ID="1037">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Convicted of Sexual Offense</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1038">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Court-martialed</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1039">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Use Illegal Drugs</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1040">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Use Chemical Substances</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1041">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>A Risk to Safety of Patients</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <Disclosure ID="1042">
+        <DisclosureAnswerFlag>0</DisclosureAnswerFlag>
+        <DisclosureQuestion>
+            <DisclosureSummary>Able to perform without Accommodations</DisclosureSummary>
+        </DisclosureQuestion>
+    </Disclosure>
+    <GraduateType>
+        <GraduateTypeDescription>US/Canadian Graduate</GraduateTypeDescription>
+    </GraduateType>
+    <ProviderAddress ID="1000">
+        <City>WASHINGTON</City>
+        <State>DC</State>
+        <PostalCode>200061110</PostalCode>
+        <PhoneNumber>2025170426</PhoneNumber>
+        <EmailAddress>severline@caqh.org</EmailAddress>
+        <AddressType>
+            <AddressTypeDescription>Current Home</AddressTypeDescription>
+        </AddressType>
+    </ProviderAddress>
+    <ProviderAddress ID="1001">
+        <City>WASHINGTON</City>
+        <State>DC</State>
+        <PostalCode>200061110</PostalCode>
+        <PhoneNumber>2025170426</PhoneNumber>
+        <EmailAddress>severline@caqh.org</EmailAddress>
+        <AddressType>
+            <AddressTypeDescription>Mailing</AddressTypeDescription>
+        </AddressType>
+    </ProviderAddress>
+    <ProviderCertification ID="1000">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Cardio-Pulmonary Resucitation (CPR)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1001">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Basic Life Support (BLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1002">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Cardiac Life Support (ACLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1003">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Life Support in OB (ALSO)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1004">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Health Care Provider (Core C)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1005">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Neonatal Advanced Life Support (NALS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1006">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Advanced Trauma Life Support (ATLS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1007">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Neonatal Resuscitation Program (NRS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1008">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Pediatric Advanced Life Support (PALS)</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1009">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Other</CertificationDescription>
+    </ProviderCertification>
+    <ProviderCertification ID="1010">
+        <CertificationFlag>0</CertificationFlag>
+        <CertificationDescription>Anesthesia Permit</CertificationDescription>
+    </ProviderCertification>
+    <CitizenshipCountry>
+        <CountryName>United States</CountryName>
+    </CitizenshipCountry>
+    <Military ID="1000">
+        <ReserveGuardFlag>0</ReserveGuardFlag>
+        <ActiveDuty>0</ActiveDuty>
+    </Military>
+    <OwnershipDisclosure ID="1109">
+        <EntityType>Sole Proprietorship;</EntityType>
+        <EntityName>Acme Physical Therapy</EntityName>
+        <DoingBusinessAs>Acme PT</DoingBusinessAs>
+        <ProviderNumber>123456789</ProviderNumber>
+        <VendorNumber>123456789</VendorNumber>
+        <Address>1900 K St NW</Address>
+        <City>Washington</City>
+        <County>District of Columbia</County>
+        <State>DC</State>
+        <Telephone>5555555555</Telephone>
+        <OwnershipConvictionFlag>0</OwnershipConvictionFlag>
+        <EmployeeConvictionFlag>0</EmployeeConvictionFlag>
+        <FiscalIntermediaryEmploymentFlag>0</FiscalIntermediaryEmploymentFlag>
+        <MedicareMedicaidFacilityOwnerFlag>0</MedicareMedicaidFacilityOwnerFlag>
+        <OwnershipChangeWithinYearFlag>0</OwnershipChangeWithinYearFlag>
+        <AnticipateOwnershipChangeFlag>0</AnticipateOwnershipChangeFlag>
+        <AnticipateBankruptcyFlag>0</AnticipateBankruptcyFlag>
+        <ManagementCompanyOperatedLeasedFlag>0</ManagementCompanyOperatedLeasedFlag>
+        <AdminDirectorChangeFlag>0</AdminDirectorChangeFlag>
+        <ChainAffiliatedFlag>0</ChainAffiliatedFlag>
+        <PriorChainAffiliatedFlag>0</PriorChainAffiliatedFlag>
+        <BedCapacityIncreaseFlag>0</BedCapacityIncreaseFlag>
+        <SignatureDate>2016-01-06T00:00:00</SignatureDate>
+        <AuthRepName>Scott Everline</AuthRepName>
+        <Title>Owner</Title>
+    </OwnershipDisclosure>
+</Provider>
+ 
