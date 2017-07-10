@@ -41,7 +41,7 @@ function app:get(
     "meta": object-node {
         "lastUpdated": fn:current-dateTime()
     },
-    "type": "searchset"
+    "type": "searchset",
     "total": number-node{4},
     "link": array-node {
         object-node {
@@ -68,7 +68,7 @@ function app:get(
     }
   ],:)
 
-  document { "GET called on the ext service extension" }
+  return document { "GET called on the ext service extension" }
 };
 
 (:

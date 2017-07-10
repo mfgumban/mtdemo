@@ -18,7 +18,7 @@ function getPractitioners(count) {
 };
 
 function buildBundle(response) {
-    let bundle = 
+    var bundle = 
  // "resourceType": "Bundle",
  //    "id": text {sem:uuid-string()},
  //    "meta": object-node {

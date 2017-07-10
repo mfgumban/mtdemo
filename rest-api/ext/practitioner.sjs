@@ -1,4 +1,4 @@
-const p = require('/lib/practitioner-lib.sjs');
+var p = require('/lib/practitioner-lib.sjs');
 
 // GET
 //
@@ -19,7 +19,7 @@ function get(context, params) {
   }
   xdmp.log(params);
 
-  let response = null;
+  var response = null;
 
   if (params["_id"]) {
     response = p.getPractitionerById(params["_id"], true);
