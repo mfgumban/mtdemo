@@ -402,6 +402,13 @@
           <range-value-positions>true</range-value-positions>
         </geospatial-element-pair-index>
 -->
+        <geospatial-element-pair-index>
+          <parent-localname>location</parent-localname>
+          <latitude-localname>lat</latitude-localname>
+          <longitude-localname>long</longitude-localname>
+          <coordinate-system>wgs84</coordinate-system>
+          <range-value-positions>true</range-value-positions>
+        </geospatial-element-pair-index>
       </geospatial-element-pair-indexes>
       <geospatial-element-child-indexes>
 <!--

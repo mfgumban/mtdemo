@@ -1,6 +1,7 @@
 xquery version "1.0-ml";
 module namespace prac = "http://marklogic.com/mtdemo/lib/practitioner";
 
+import module namespace geo = "http://marklogic.com/mtdemo/lib/geocode-google" at "/lib/geocode-google.xqy";
 import module namespace json = "http://marklogic.com/xdmp/json" at "/MarkLogic/json/json.xqy";
 
 
@@ -12,13 +13,35 @@ as map:map*
 
   let $uri := $orig-uri
   let $provider := $orig-content/*:Provider
+  let $practitioner := prac:create($provider)
   let $content := 
   <envelope>
     <meta>
       <id>{ $provider/@ProviderID/fn:string() }</id>
       <name>{ fn:string-join(($provider/*:FirstName/fn:string(), $provider/*:LastName/fn:string()), " ") }</name>
+      <addresses>
+      {
+        for $address in $practitioner/address
+        let $line := fn:string-join((
+          $address/line/fn:string(), 
+          $address/city/fn:string(),
+          $address/county/fn:string(),
+          $address/state/fn:string(),
+          $address/postalCode/fn:string()), " ")
+        let $geocode := geo:geocode($line)
+        return
+        <address>
+          <line>{ $line }</line>
+          <formatted>{ $geocode//formatted_address/fn:string() }</formatted>
+          <location>
+            <lat>{ $geocode//geometry/location/lat/fn:string() }</lat>
+            <long>{ $geocode//geometry/location/lng/fn:string() }</long>
+          </location>
+        </address>
+      }
+      </addresses>
     </meta>
-    { prac:create($provider) }
+    { $practitioner }
     <core>{ $orig-content }</core>
   </envelope>
 
@@ -32,6 +55,7 @@ declare function prac:create($provider as node())
 as node()
 {
   let $id := $provider/@ProviderID/fn:string()
+  let $addresses := $provider/*:Practice/*:PracticeAddress
 
   return
   <practitioner>
@@ -64,7 +88,7 @@ as node()
       )
     }
     {
-      for $address in $provider/*:Practice/*:PracticeAddress
+      for $address in $addresses
       let $lines := ($address/*:Address/fn:string(), $address/*:Address2/fn:string())
       return
       <address>
