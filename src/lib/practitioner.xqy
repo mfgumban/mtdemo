@@ -163,6 +163,21 @@ as node()
   json:transform-to-json($node, prac:json-config())/practitioner
 };
 
+declare function prac:create-bundle($items as node()*)
+as node()* {
+  let $bundle := json:object()
+  let $_ := (
+    map:put($bundle, "resourceType", "Bundle"),
+    map:put($bundle, "id", sem:uuid-string()),
+    map:put($bundle, "meta", object-node { "lastUpdated": fn:current-dateTime() }),
+    map:put($bundle, "type", "searchset"),
+    map:put($bundle, "total", fn:count($items)),
+    map:put($bundle, "docs", json:to-array($items))
+  )
+
+  return xdmp:to-json($bundle)
+};
+
 declare function prac:get-by-id($practitioner-id as xs:string)
 as node()*
 {
@@ -188,3 +203,16 @@ as node()*
   )/../../practitioner
   return prac:to-json($practitioners)
 };
+
+(: TODO: search parameters :)
+declare function prac:search($limit as xs:integer)
+as node()*
+{
+  let $practitioners := cts:search(
+    fn:collection("providers")/envelope/practitioner,
+    (),
+    ()
+  )
+  return prac:create-bundle(prac:to-json($practitioners[1 to $limit]))
+};
+

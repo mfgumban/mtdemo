@@ -4,6 +4,8 @@ module namespace app = "http://marklogic.com/rest-api/resource/practitioner";
 
 declare namespace roxy = "http://marklogic.com/roxy";
 declare namespace rapi = "http://marklogic.com/rest-api";
+import module namespace prac = "http://marklogic.com/mtdemo/lib/practitioner" at "/lib/practitioner.xqy";
+
 
 (:
  : To add parameters to the functions, specify them in the params annotations.
@@ -32,11 +34,26 @@ function app:get(
   map:put($context, "output-types", "application/json"),
   map:put($context, "output-status", (200, "OK")),
 
+  let $practitioner-id := map:get($params, "practitionerId")
+
+  let $response := 
+  if ($practitioner-id) then
+    (: get by ID :)
+    prac:get-by-id($practitioner-id)
+  else 
+    ()
+
+  return (
+    document { $response },
+    xdmp:set-response-code(200, "OK"),
+    xdmp:set-response-content-type("application/fhir+json")
+  )
+(:
   let $url := "http://marklogic.com/test/Practitioner"
   
   let $response :=
   object-node {
-    "resourceType": "Bundle",
+    "resourceType": "ddd",
     "id": text {sem:uuid-string()},
     "meta": object-node {
         "lastUpdated": fn:current-dateTime()
@@ -52,7 +69,7 @@ function app:get(
 
 
   }
-
+:)
 (:
   "resourceType": "Bundle",
   "id": "87ed571e-6b2c-4a37-ab0f-fd7983be3aba",
@@ -67,8 +84,6 @@ function app:get(
       "url": "https://sb-fhir-dstu2.smarthealthit.org/smartdstu2/open/Practitioner"
     }
   ],:)
-
-  return document { "GET called on the ext service extension" }
 };
 
 (:

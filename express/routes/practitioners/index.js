@@ -5,6 +5,11 @@ var url = require('url');
 
 const practitioner = require('express').Router();
 
+//const baseUrl = "http://mitatac.demo.marklogic.com:8042/v1/resources/practitioner";
+const baseUrl = "http://localhost:9200/v1/resources/";
+const username = 'mitatac-node-user';
+const password = 'Zp_l^L`~by8d=2vzNJ^7';
+
 function addRSNamespaceToParams(req) {
  // Convert to rs: namespace
  let rsParams = {};
@@ -57,8 +62,7 @@ practitioner.get('/', (req, res) => {
     // if (params.include("_count") === false) then
     //     params = params + "rs:count"
     // const count = req.query._count ? req.query._count * 1 : 10;
-    const baseUrl = "http://mitatac.demo.marklogic.com:8042/v1/resources/practitioner";
-    const url = res.params ? baseUrl : baseUrl + "?" + qs.stringify(addRSNamespaceToParams(req));
+    const url = res.params ? baseUrl : baseUrl + "practitioner-search?" + qs.stringify(addRSNamespaceToParams(req));
     console.log(qs.stringify(req.query));
     console.log(url);
     request.get(url, function(err, response, body) {
@@ -67,7 +71,8 @@ practitioner.get('/', (req, res) => {
             console.log(body);
             res.json(body);
         }
-    }); 
+    })
+    .auth(username, password, true);
 });
 
 // practitioner.get('/', (req, res) => {
@@ -78,7 +83,7 @@ practitioner.get('/', (req, res) => {
 
 practitioner.get('/:practitionerID', (req, res) => {
     const practitionerId = req.params.practitionerID;
-    const url = 'http://mitatac.demo.marklogic.com:8042/v1/resources/practitioner?rs:practitionerId=' + practitionerId;
+    const url = baseUrl + 'practitioner?rs:practitionerId=' + practitionerId;
     console.log(url);
 
     request.get(url, function(err, response, body) {
@@ -87,7 +92,8 @@ practitioner.get('/:practitionerID', (req, res) => {
             console.log(body);
             res.json(body);
       }
-  });   
+  })
+  .auth(username, password, true);
 }); 
 
 module.exports = practitioner;
