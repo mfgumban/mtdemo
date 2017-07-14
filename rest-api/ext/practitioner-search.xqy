@@ -35,8 +35,12 @@ function app:get(
   map:put($context, "output-status", (200, "OK")),
 
   let $limit := (xs:integer(map:get($params, "_count")), 50)[1] (: default to 50 :)
+  let $id := map:get($params, "_id")
 
-  let $response := prac:search($limit)
+  let $response := if ($id) then
+    prac:create-bundle(prac:get-by-id($id))
+  else
+    prac:search($limit)
 
   return (
     document { $response },
