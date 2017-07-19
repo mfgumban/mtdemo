@@ -316,10 +316,10 @@
             <MultiCareFlag>0</MultiCareFlag>
         </PracticeSpecialty>
         <PracticeAddress ID="1000">
-            <Address>dfmkdfm</Address>
-            <City>dfdkfm</City>
-            <State>MA</State>
-            <PostalCode>20004</PostalCode>
+            <Address>601 Hamilton Avenue</Address>
+            <City>Trenton</City>
+            <State>NJ</State>
+            <PostalCode>08629</PostalCode>
             <Country>
                 <CountryName>United States</CountryName>
             </Country>

@@ -112,10 +112,8 @@
     </Education>
     <Education ID="1001">
         <InstitutionName>Carilion Medical Center (Roanoke, VA)</InstitutionName>
-        <Address>Belleview at Jefferson Street</Address>
-        <Address2>Fellowship address 2</Address2>
+        <Address>1906 Belleview Ave SE</Address>
         <City>Roanoke</City>
-        <Province>Fellowship province</Province>
         <State>VA</State>
         <PostalCode>24014</PostalCode>
         <StartDate>2010-01-01T00:00:00</StartDate>
@@ -139,9 +137,7 @@
     <Education ID="1002">
         <InstitutionName>Des Moines University, College of Osteopathic Medicine</InstitutionName>
         <Address>3200 Grand Avenue</Address>
-        <Address2>wa med/profess ed address 2</Address2>
         <City>Des Moines</City>
-        <Province>wa med/profess ed province</Province>
         <State>IA</State>
         <PostalCode>50312</PostalCode>
         <StartDate>2013-01-01T00:00:00</StartDate>
@@ -232,7 +228,6 @@
     <Education ID="1006">
         <InstitutionName>Sinai Hospital of Baltimore</InstitutionName>
         <Address>2401 West Belvedere Avenue</Address>
-        <Address2>Intern address 2</Address2>
         <City>Baltimore</City>
         <Province>intern province</Province>
         <State>MD</State>
@@ -813,31 +808,29 @@
             </AddressType>
         </PracticeAddress>
         <PracticeAddress ID="1001">
-            <Address>Mailing address</Address>
-            <Address2>Mailing address 2</Address2>
-            <City>mailing City</City>
-            <State>OK</State>
-            <PostalCode>10032</PostalCode>
+            <Address>18100 Oakwood Blvd.</Address>
+            <Address2>Ste. 300</Address2>
+            <City>New York</City>
+            <State>FL</State>
+            <PostalCode>10002</PostalCode>
             <AddressType>
                 <AddressTypeDescription>Primary Practice Mailing</AddressTypeDescription>
             </AddressType>
         </PracticeAddress>
         <PracticeAddress ID="1002">
-            <Address>Billing address</Address>
-            <Address2>Billing address 2</Address2>
-            <City>billing city</City>
-            <State>OK</State>
-            <PostalCode>10032</PostalCode>
+            <Address>2484 Pin Oak Drive</Address>
+            <City>Long Beach</City>
+            <State>CA</State>
+            <PostalCode>90802</PostalCode>
             <AddressType>
                 <AddressTypeDescription>Billing</AddressTypeDescription>
             </AddressType>
         </PracticeAddress>
         <PracticeAddress ID="1003">
-            <Address>BCaddress</Address>
-            <Address2>BCDeot==pt</Address2>
-            <City>BCCity</City>
-            <State>MD</State>
-            <PostalCode>10032</PostalCode>
+            <Address>2093 Kerry Way</Address>
+            <City>Long Beach</City>
+            <State>CA</State>
+            <PostalCode>90805</PostalCode>
             <PhoneNumber>2125551214</PhoneNumber>
             <FaxNumber>2125551215</FaxNumber>
             <EmailAddress>NJ@Billing.com</EmailAddress>
@@ -846,11 +839,10 @@
             </AddressType>
         </PracticeAddress>
         <PracticeAddress ID="1004">
-            <Address>Payaddress</Address>
-            <Address2>Paydept</Address2>
-            <City>Paycity</City>
-            <State>MD</State>
-            <PostalCode>20906</PostalCode>
+            <Address>3921 Chapel Street</Address>
+            <City>Spring</City>
+            <State>TX</State>
+            <PostalCode>77388</PostalCode>
             <PhoneNumber>3015559898</PhoneNumber>
             <FaxNumber>3015559999</FaxNumber>
             <EmailAddress>pay@payment.com</EmailAddress>
