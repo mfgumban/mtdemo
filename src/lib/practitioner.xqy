@@ -18,28 +18,31 @@ as map:map*
   <envelope>
     <meta>
       <id>{ $provider/@ProviderID/fn:string() }</id>
-      <name>{ fn:string-join(($provider/*:FirstName/fn:string(), $provider/*:LastName/fn:string()), " ") }</name>
+      <name>{ fn:string-join(($provider/*:FirstName/fn:string(), $provider/*:MiddleName/fn:string(), $provider/*:LastName/fn:string()), " ") }</name>
       <addresses>
       {
         for $address in $practitioner/address
-        let $line := fn:string-join((
+        let $line := fn:normalize-space(fn:string-join((
           $address/line/fn:string(), 
           $address/city/fn:string(),
           $address/county/fn:string(),
           $address/state/fn:string(),
-          $address/postalCode/fn:string()), " ")
-        let $geocode := geo:geocode($line)
+          $address/postalCode/fn:string()), " "))
         return
         <address>
           <line>{ $line }</line>
-          <formatted>{ $geocode//formatted_address/fn:string() }</formatted>
+          <postal-code>{ $address/postalCode/fn:string() }</postal-code>
+          <state>{ $address/state/fn:string() }</state>
           <location>
-            <lat>{ $geocode//geometry/location/lat/fn:string() }</lat>
-            <long>{ $geocode//geometry/location/lng/fn:string() }</long>
+            <lat>{ $address/extension/extension[1]/valueDecimal/fn:string() }</lat>
+            <long>{ $address/extension/extension[2]/valueDecimal/fn:string() }</long>
           </location>
         </address>
       }
       </addresses>
+      {
+        prac:get-provider-taxonomy($provider/*:ProviderType/*:ProviderTypeAbbreviation/fn:string())
+      }
     </meta>
     { $practitioner }
     <core>{ $orig-content }</core>
@@ -56,6 +59,7 @@ as node()
 {
   let $id := $provider/@ProviderID/fn:string()
   let $addresses := $provider/*:Practice/*:PracticeAddress
+  let $taxonomy := prac:get-provider-taxonomy($provider/*:ProviderType/*:ProviderTypeAbbreviation/fn:string())
 
   return
   <practitioner>
@@ -64,9 +68,13 @@ as node()
     {
       prac:create-identifier($id)
     }
-    {
-      prac:create-practitioner-narrative($provider)
-    }
+    <extension>
+      <url>http://hl7.org/fhir/StructureDefinition/practitioner-classification</url>
+      <valueCodeableConcept>
+        <code>{ $taxonomy/code/fn:string() }</code>
+        <display>{ $taxonomy/description/fn:string() }</display>
+      </valueCodeableConcept>
+    </extension>
     <active>true</active>
     <name>
       <family>{ $provider/*:LastName/fn:string() }</family>
@@ -90,6 +98,14 @@ as node()
     {
       for $address in $addresses
       let $lines := ($address/*:Address/fn:string(), $address/*:Address2/fn:string())
+      let $one-line := fn:normalize-space(fn:string-join((
+          $lines,
+          $address/*:City/fn:string(),
+          $address/*:County/fn:string(),
+          $address/*:State/fn:string(),
+          $address/*:PostalCode/fn:string()), " "))
+
+      let $geocode := geo:geocode($one-line)
       return
       <address>
         <use>work</use>
@@ -98,6 +114,17 @@ as node()
         <county>{ $address/*:County/fn:string() }</county>
         <state>{ $address/*:State/fn:string() }</state>
         <postalCode>{ $address/*:PostalCode/fn:string() }</postalCode>
+        <extension>
+          <url>http://hl7.org/fhir/StructureDefinition/geolocation</url>
+          <extension>
+            <url>latitude</url>
+            <valueDecimal>{ $geocode/GeocodeResponse/result[1]/geometry/location/lat/fn:string() }</valueDecimal>
+          </extension>
+          <extension>
+            <url>longitude</url>
+            <valueDecimal>{ $geocode/GeocodeResponse/result[1]/geometry/location/lng/fn:string() }</valueDecimal>
+          </extension>
+        </extension>
       </address>
     }
     <gender>{ fn:lower-case($provider/*:Gender/*:GenderDescription/fn:string()) }</gender>
@@ -175,7 +202,7 @@ as map:map
 {
   let $config := json:config("custom")
   let $_ := (
-    map:put($config, "array-element-names", ("identifier", "name", "given", "telecom", "address", "qualification"))
+    map:put($config, "array-element-names", ("identifier", "name", "given", "telecom", "address", "qualification", "extension"))
   )
   return $config
 };
@@ -228,15 +255,56 @@ as node()*
   return prac:to-json($practitioners)
 };
 
-(: TODO: search parameters :)
-declare function prac:search($limit as xs:integer)
+declare function prac:search($params as map:map)
 as node()*
 {
+  let $limit := (xs:integer(map:get($params, "_count")), 50)[1]
+  let $id := map:get($params, "_id")
+  (:let $name := map:get($params, "name"):)
+  let $postal-code := map:get($params, "address-postalcode")
+  let $state := map:get($params, "address-state")
+  let $prac-type := map:get($params, "practitioner-type")
+
+  let $query := cts:and-query((
+    if ($id) then cts:path-range-query("/envelope/meta/id", "=", $id, ("collation=http://marklogic.com/collation/codepoint")) else (),
+    if ($postal-code) then cts:path-range-query("/envelope/meta/addresses/address/postal-code", "=", $postal-code, ("collation=http://marklogic.com/collation/codepoint")) else (),
+    if ($state) then cts:path-range-query("/envelope/meta/addresses/address/state", "=", $state, ("collation=http://marklogic.com/collation/codepoint")) else (),
+    if ($prac-type) then
+      cts:or-query((
+        cts:element-word-query(xs:QName("code"), $prac-type, ("case-insensitive")),
+        cts:element-word-query(xs:QName("description"), $prac-type, ("case-insensitive"))
+      ))
+    else ()
+  ))
+
   let $practitioners := cts:search(
     fn:collection("providers")/envelope/practitioner,
-    (),
-    ()
+    $query,
+    ("unfiltered")
   )
   return prac:create-bundle(prac:to-json($practitioners[1 to $limit]))
+};
+
+(: TODO: make this use matching+triples perhaps? :)
+(: using http://www.wpc-edi.com/reference/codelists/healthcare/health-care-provider-taxonomy-code-set/ :)
+declare function prac:get-provider-taxonomy($provider-type-abbr as xs:string)
+as node()*
+{
+  if ($provider-type-abbr eq "DO") then
+    <providerTaxonomy>
+      <code>207K00000X</code>
+      <description>Allopathic &amp; Osteopathic Physicians &#8722; Allergy &amp; Immunology</description>
+    </providerTaxonomy>
+  else if ($provider-type-abbr eq "NP") then
+    <providerTaxonomy>
+      <code>363LA2200X</code>
+      <description>Nurse Practitioner &#8722; Adulth Health</description>
+    </providerTaxonomy>
+  else if ($provider-type-abbr eq "MD") then
+    <providerTaxonomy>
+      <code>208D00000X</code>
+      <description>General Practice</description>
+    </providerTaxonomy>
+  else ()
 };
 
