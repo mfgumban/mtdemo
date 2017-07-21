@@ -5,8 +5,8 @@ var url = require('url');
 
 const practitioner = require('express').Router();
 
-//const baseUrl = "http://mitatac.demo.marklogic.com:8040/v1/resources/";
-const baseUrl = "http://localhost:9200/v1/resources/";
+const baseUrl = "http://mitatac.demo.marklogic.com:8040/v1/resources/";
+//const baseUrl = "http://localhost:9200/v1/resources/";
 const username = 'mitatac-node-user';
 const password = 'Zp_l^L`~by8d=2vzNJ^7';
 
