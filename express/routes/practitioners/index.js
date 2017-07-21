@@ -5,7 +5,7 @@ var url = require('url');
 
 const practitioner = require('express').Router();
 
-//const baseUrl = "http://mitatac.demo.marklogic.com:8042/v1/resources/practitioner";
+//const baseUrl = "http://mitatac.demo.marklogic.com:8040/v1/resources/";
 const baseUrl = "http://localhost:9200/v1/resources/";
 const username = 'mitatac-node-user';
 const password = 'Zp_l^L`~by8d=2vzNJ^7';
@@ -21,7 +21,6 @@ function addRSNamespaceToParams(req) {
 }
 return rsParams;
 };
-
 
 function fullUrl(req) {
     var urlobj = url.parse(req.originalUrl);
@@ -39,47 +38,22 @@ function addUrl(body, url) {
     return body;
 };
 
-practitioner.get('/', (req, res) => {
-// const count = req.query._count ? req.query._count * 1 : 10;
-// const url = "http://mitatac.demo.marklogic.com:8042/v1/resources/practitioner?rs:_count=" + count;
-// let newParams = [];
-// let newParams = "";
-// for (var property in req.query) {
-//     if (req.hasOwnProperty(property)) {
-//         newParams = newParams + property ": "
-//     }
-// }
+function processSearch(req, res) {
+  const url = res.params ? baseUrl : baseUrl + "practitioner-search?" + qs.stringify(addRSNamespaceToParams(req));
+  console.log(qs.stringify(req.query));
+  console.log(url);
+  request.get(url, function(err, response, body) {
+      if (!err) {
+          body = addUrl(body, fullUrl(req));
+          console.log(body);
+          res.json(body);
+      }
+  })
+  .auth(username, password, true);
+};
 
-
-  // let newParams = {};
-  // for (let pname in p) {
-  //   if (p.hasOwnProperty(pname)) {
-  //     newParams["rs:"+ pname] = p[pname];
-  //   }
-  // }
-
-
-    // if (params.include("_count") === false) then
-    //     params = params + "rs:count"
-    // const count = req.query._count ? req.query._count * 1 : 10;
-    const url = res.params ? baseUrl : baseUrl + "practitioner-search?" + qs.stringify(addRSNamespaceToParams(req));
-    console.log(qs.stringify(req.query));
-    console.log(url);
-    request.get(url, function(err, response, body) {
-        if (!err) {
-            body = addUrl(body, fullUrl(req));
-            console.log(body);
-            res.json(body);
-        }
-    })
-    .auth(username, password, true);
-});
-
-// practitioner.get('/', (req, res) => {
-//   const count = "?_count=" + (req.query._count ? (req.query._count * 1) : 10);
-
-//   res.status(200).json({ message: count});
-// });
+practitioner.get('/', processSearch);
+practitioner.post('/_search', processSearch);
 
 practitioner.get('/:practitionerID', (req, res) => {
     const practitionerId = req.params.practitionerID;
@@ -94,6 +68,6 @@ practitioner.get('/:practitionerID', (req, res) => {
       }
   })
   .auth(username, password, true);
-}); 
+});
 
 module.exports = practitioner;
