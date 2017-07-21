@@ -143,6 +143,14 @@ as node()
         </period>
       </qualification>
     }
+    {
+      for $language in $provider/*:Language/*:Language/*:LanguageName/fn:string()
+      return
+      <communication>
+        <coding>{ prac:get-lang-code($language) }</coding>
+        <text>{ $language }</text>
+      </communication>
+    }
   </practitioner>
 };
 
@@ -197,12 +205,20 @@ as node()*
   () (: TODO - distinct addresses :)
 };
 
+declare function prac:get-lang-code($language as xs:string)
+as xs:string*
+{
+  if ($language eq "French") then "fr"
+  else if ($language eq "Dutch") then "nl"
+  else ()
+};
+
 declare function prac:json-config()
 as map:map
 {
   let $config := json:config("custom")
   let $_ := (
-    map:put($config, "array-element-names", ("identifier", "name", "given", "telecom", "address", "qualification", "extension"))
+    map:put($config, "array-element-names", ("identifier", "name", "given", "telecom", "address", "qualification", "communication", "extension"))
   )
   return $config
 };
@@ -258,6 +274,8 @@ as node()*
 declare function prac:search($params as map:map)
 as node()*
 {
+  let $_ := xdmp:log("---PRAC-SEARCH---")
+  let $_ := xdmp:log($params)
   let $limit := (xs:integer(map:get($params, "_count")), 50)[1]
   let $id := map:get($params, "_id")
   (:let $name := map:get($params, "name"):)
@@ -267,7 +285,7 @@ as node()*
 
   let $query := cts:and-query((
     if ($id) then cts:path-range-query("/envelope/meta/id", "=", $id, ("collation=http://marklogic.com/collation/codepoint")) else (),
-    if ($postal-code) then cts:path-range-query("/envelope/meta/addresses/address/postal-code", "=", $postal-code, ("collation=http://marklogic.com/collation/codepoint")) else (),
+    if ($postal-code) then prac:get-postal-code-query($postal-code) else (),
     if ($state) then cts:path-range-query("/envelope/meta/addresses/address/state", "=", $state, ("collation=http://marklogic.com/collation/codepoint")) else (),
     if ($prac-type) then
       cts:or-query((
@@ -276,6 +294,7 @@ as node()*
       ))
     else ()
   ))
+  let $_ := xdmp:log($query)
 
   let $practitioners := cts:search(
     fn:collection("providers")/envelope/practitioner,
@@ -283,6 +302,36 @@ as node()*
     ("unfiltered")
   )
   return prac:create-bundle(prac:to-json($practitioners[1 to $limit]))
+};
+
+declare function prac:get-postal-code-query($input as xs:string)
+as cts:query*
+{
+  let $comps := fn:tokenize($input, "\$")
+  let $postal-code := $comps[1]
+  let $distance-miles := $comps[2]
+  let $_ := xdmp:log("---PRAC-GET-POSTAL-CODE-QUERY---")
+  let $_ := xdmp:log(($input, $postal-code, $distance-miles))
+  return if (fn:empty($distance-miles)) then
+    cts:path-range-query("/envelope/meta/addresses/address/postal-code", "=", $postal-code, ("collation=http://marklogic.com/collation/codepoint"))
+  else
+    (: get approx. coords of the zip code area :)
+    let $location := prac:get-zip-coords($postal-code)
+    let $_ := xdmp:log($location)
+    return cts:element-pair-geospatial-query(
+      xs:QName("location"), xs:QName("lat"), xs:QName("long"),
+      cts:circle(xs:double($distance-miles), cts:point($location/LAT, $location/LNG)),
+      ("coordinate-system=wgs84")
+    )
+};
+
+declare function prac:get-zip-coords($zipcode as xs:string)
+{
+  cts:search(
+    fn:collection("zipcodes"),
+    cts:path-range-query("/ZIP", "=", $zipcode, ("collation=http://marklogic.com/collation/codepoint")),
+    ("unfiltered")
+  )[1]
 };
 
 (: TODO: make this use matching+triples perhaps? :)

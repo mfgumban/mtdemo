@@ -344,6 +344,13 @@
           <range-value-positions>false</range-value-positions>
           <invalid-values>reject</invalid-values>
         </range-path-index>
+        <range-path-index>
+          <scalar-type>string</scalar-type>
+          <collation>http://marklogic.com/collation/codepoint</collation>
+          <path-expression>/ZIP</path-expression>
+          <range-value-positions>false</range-value-positions>
+          <invalid-values>reject</invalid-values>
+        </range-path-index>
 
 <!--
         <range-path-index>
@@ -387,17 +394,6 @@
 -->
       </geospatial-element-attribute-pair-indexes>
       <geospatial-element-pair-indexes>
-        <geospatial-element-pair-index>
-          <parent-namespace-uri/>
-          <parent-localname>location</parent-localname>
-          <latitude-namespace-uri/>
-          <latitude-localname>latitude</latitude-localname>
-          <longitude-namespace-uri/>
-          <longitude-localname>longitude</longitude-localname>
-          <coordinate-system>wgs84</coordinate-system>
-          <range-value-positions>false</range-value-positions>
-        </geospatial-element-pair-index>
-
 <!--
         Sample for:
           <geo xmlns="http://marklogic.com/ns/sample">
